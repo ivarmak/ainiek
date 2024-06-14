@@ -41,11 +41,11 @@ class _UiSettings(BaseSettings):
         env_ignore_empty=True
     )
 
-    title: str = "Contoso"
+    title: str = "VIENNai"
     logo: Optional[str] = None
     chat_logo: Optional[str] = None
-    chat_title: str = "Start chatting"
-    chat_description: str = "This chatbot is configured to answer your questions"
+    chat_title: str = "Start de chat"
+    chat_description: str = "Deze chatbot is er om je helpen met al je VIENNA vragen"
     favicon: str = "/favicon.ico"
     show_share_button: bool = True
 
